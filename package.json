@@ -1,10 +1,12 @@
 {
   "name": "vanilla-basic",
   "version": "1.0.0",
+  "main": "server.js",
   "scripts": {
-    "start": "sirv ./src public --cors --single --no-clear --port $PORT"
+    "start": "node server.js"
   },
   "dependencies": {
     "sirv": "^2.0.2"
   }
 }
+
